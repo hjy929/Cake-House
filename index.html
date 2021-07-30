@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake House</title>
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".cakes").click(function(){
+                $("html, body").animate({scrollTop : $("#cakes").offset().top}, 1000);
+                return false;
+            });
+            $(".services").click(function(){
+                $("html, body").animate({scrollTop : $("#services").offset().top}, 1000);
+                return false;
+            });
+            $(".chefs").click(function(){
+                $("html, body").animate({scrollTop : $("#chefs").offset().top}, 1000);
+                return false;
+            });
+            $(".contact").click(function(){
+                $("html, body").animate({scrollTop : $("#contact").offset().top - 60}, 1000);
+                return false;
+            });
+
+        });
+    </script>
+</head>
+<body>
+    
+    <!-- <div id="header"> -->
+        <div class="top">
+            <div class="wrap">
+                <div class="left_p">
+                    <ul>
+                        <li><p>+45 827 3846</p></li>
+                        <li><p>cb_chef@cb.br</p></li>
+                    </ul>
+                </div>
+                <div class="right_p">
+                    <ul>
+                        <li><a href="#"><img src="./img/sns-icon/youtube.png" alt=""></a></li>
+                        <li><a href="#"><img src="./img/sns-icon/pinterest.png" alt=""></a></li></a></li>
+                        <li><a href="#"><img src="./img/sns-icon/facebook.png" alt=""></a></li></a></li>
+                        <li><a href="#"><img src="./img/sns-icon/insta.png" alt=""></a></li></a></li>
+                        <li><a href="#"><img src="./img/sns-icon/twitter.png" alt=""></a></li></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="main_bar">
+            <div class="wrap_menu">
+                <ul>
+                    <li><a class="cakes" href="">Cakes</a></li>
+                    <li><a class="services" href="">Service</a></li>
+                    <li><a href=""><img src="./img/logo.png" alt=""></a></li>
+                    <li><a class="chefs" href="">Chefs</a></li>
+                    <li><a class="contact" href="">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    <!-- </div> -->
+
+    <!-- main baner -->
+    <div id="main">
+        <div class="main_text">
+            <div class="wrap">
+                <h1>Quality Products...</h1>
+                <h1>with sweet, eggs & breads</h1>
+                <p>This drastic appeal for baked goods promoted baking all throughout Eroupe and expended into the eatern parts of Asia</p>
+                <a href="#">See the recipe</a>
+            </div>
+        </div>
+        <div class="main_banner">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <div id="cakes">
+        <div class="wrap">
+            <div class="title">
+                <h1>Our Featured Cakes</h1>
+                <div></div>
+            </div>
+            <div class="text">
+                <p>Cake & Bakery make delicious products</p>
+            </div>
+            <div class="images">
+                <div class="cake1">
+                    <div class="bg">
+                        <h3>Chocho Cupcake</h3>
+                        <p>$8.00</p>
+                        <a href="#">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="cake2">
+                    <div class="bg">
+                        <h3>Happy Glory</h3>
+                        <p>$35.00</p>
+                        <a href="#">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="cake3">
+                    <div class="bg">
+                        <h3>Choco Berry</h3>
+                        <p>$7.50</p>
+                        <a href="#">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="cake4">
+                    <div class="bg">
+                        <h3>Raseberry Cakes</h3>
+                        <p>$7.50</p>
+                        <a href="#">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="cake5">
+                    <div class="bg">
+                        <h3>Chocho Brownie</h3>
+                        <p>$8.00</p>
+                        <a href="#">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="cake6">
+                    <div class="bg">
+                        <h3>Berry Pie</h3>
+                        <p>$45.00</p>
+                        <a href="#">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="cake7">
+                    <div class="bg">
+                        <h3>Sugar Party</h3>
+                        <p>$40.00</p>
+                        <a href="#">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="cake8">
+                    <div class="bg">
+                        <h3>Cute Bunny</h3>
+                        <p>$52.00</p>
+                        <a href="#">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="wrap">
+            <div class="title">
+                <h1>Offer Services</h1>
+                <div></div>
+            </div>
+            <div class="outbox">
+                <div class="innerbox">
+                    <div class="glyph">
+                        <i class="flaticon flaticon-cupcake-1 f_icon"></i>
+                    </div>
+                    <div>
+                        <h2>Cookie Cakes</h2>
+                        <p>We offer the best cookies cakes. 
+                        We can send out a delicious treats 
+                        on your behalf.</p>
+                        <a href="#">MORE</a>
+                    </div>
+                </div>
+                <div class="innerbox">
+                    <div class="glyph">
+                        <i class="flaticon flaticon-cupcake f_icon"></i>
+                    </div>
+                    <div>
+                        <h2>Tasty Cupcakes</h2>
+                        <p>Our Tasty cupcakes are so tasty that 
+                            if you taste once you will fall in love 
+                            instantly.</p>
+                        <a href="#">MORE</a>
+                    </div>
+                </div>
+                <div class="innerbox">
+                    <div class="glyph">
+                        <i class="flaticon flaticon-wedding-cake f_icon"></i>
+                    </div>
+                    <div>
+                        <h2>Wedding Cakes</h2>
+                        <p>CELEBRATE YOUR TEAM, THANK 
+                            COLLEAGUES AND IMPRESS CLIENTS 
+                            WITH SOMETHING SWEET AND 
+                            MEMORABLE!</p>
+                        <a href="#">MORE</a>
+                    </div>
+                </div>
+                <div class="innerbox">
+                    <div class="glyph">
+                        <i class="flaticon flaticon-recipe-book f_icon"></i>
+                    </div>
+                    <div>
+                        <h2>Awesome Recipes</h2>
+                        <p>These old methods of baking were 
+                            almost completely eradicated when 
+                            these new methods were 
+                            introduced and became industrialised.</p>
+                        <a href="#">MORE</a>
+                    </div>
+                </div>
+                <div class="innerbox">
+                    <div class="glyph">
+                        <i class="flaticon flaticon-cookie f_icon"></i>
+                    </div>
+                    <div>
+                        <h2>Menu Planner</h2>
+                        <p>A light, sour wheat dough with 
+                            roasted walnuts and freshly picked 
+                            rosemary, thyme, poppy seeds, 
+                            parsley and sage.</p>
+                        <a href="#">MORE</a>
+                    </div>
+                </div>
+                <div class="innerbox">
+                    <div class="glyph">
+                        <i class="flaticon flaticon-delivery-truck f_icon"></i>
+                    </div>
+                    <div>
+                        <h2>Home Delivery</h2>
+                        <p>you find our competitors offering 
+                            better quality for even same price, 
+                            we will offer you same product for 
+                            free.</p>
+                        <a href="#">MORE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="chefs">
+        <div class="wrap">
+            <div class="title">
+                <h1>Our Chefs</h1>
+                <p>Pastry chefs specialise in making 
+                    pastries, desserts, breads and other 
+                    baked dishes. These chefs are vital in a 
+                    restaurant kitchen and we’ve got a 
+                    growing list of famous pastry chefs 
+                    from around the world.</p>
+            </div>
+            <div class="cont">
+                <div class="box">
+                    <div class="image"></div>
+                    <h2>Smith. G</h2>
+                    <p>Smith. G skills as a pastry chef helped 
+                        him create a line of successful shops.</p>
+                </div>
+                <div class="box">
+                    <div class="image"></div>
+                    <h2>Elizabeth Falkner</h2>
+                    <p>Elizabeth Falkner is a pastry chef, chef, 
+                        author, TV personality, artist and culinary 
+                        instigator.</p>
+                </div>
+                <div class="box">
+                    <div class="image"></div>
+                    <h2>Duff Goldman</h2>
+                    <p>You might have seen Duff Goldman on 
+                        the reality TV show Ace of Cakes which 
+                        features his Charm City Cakes shop.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="contact">
+        <div id="map" class="map_stage"></div>
+        <div class="total_space">
+            <div class="wrap">
+                <div class="dark">
+                    <h1>Contact Us</h1>
+                    <p>Our Company is the best, meet the 
+                        creative team that never sleeps. Say 
+                        something to us we will answer to you.
+                    </p>
+                    <div class="input_form">
+                        <form action="" method="post">
+                            <div class="input_line">
+                                <input type="text" name="name"  placeholder="NAME" required>
+                            </div>
+                            <div class="input_line">
+                                <input type="text" name="email" placeholder="EMAIL" required>
+                            </div>
+                            <div class="input_line">
+                                <input type="text" name="phone" placeholder="PHONE NUMBER" required>
+                            </div>
+                            <div class="input_line">
+                                <input type="text" name="message" placeholder="YOUR MESSAGE" required>
+                            </div>
+
+                            <div class="sendbtn">
+                                <!-- <input type="submit" value="SEND MESSAGE"> -->
+                                <button type="submit">SEND MESSAGE</button>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <div id="footer">
+        <div class="wrap">
+            <div class="box">
+                <img src="./img/footer_logo.png" alt="">
+                <p>We also make cupcakes, eclairs, 
+                    profiteroles, scones, slices and many 
+                    other sweet delicacie</p>
+            </div>
+            <div class="box">
+                <h2>Quick links</h2>
+                <ul>
+                    <li><a href="#">Your Account</a></li>
+                    <li><a href="#">View Order</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditionis</a></li>
+                </ul>
+            </div>
+            <div class="box">
+                <h2>Work Times</h2>
+                <p>Mon. : Thu.: 8 am - 8 pm</p>
+                <p>Fri. : 8 am - 8 pm</p>
+                <p>Sat. : 9am - 4pm</p>
+                <p>Sun. : Closed</p>
+            </div>
+            <div class="box">
+                <h2>Contact Info</h2>
+                <p><span>(1800) 574 9687</span></p>
+                <p>Cakecious Store</p>
+                <p>256, baker Street, New York, 5245</p>
+                <p><span>cakeciousdemo@email.com</span></p>
+            </div>
+        </div>
+        <div class="bottom">
+            <p>Cakecious © 2021 All Rights Reserved.</p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    
+
+
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9zCB6Bld99CcRu7ZNlZMsqrj70x2nBY4&callback=initMap"></script>
+    <script>
+        function initMap() { 
+
+            var uluru = {lat: 37.463, lng: 126.894}; //lat(latitude, 위도), lng(longitude, 경도)
+
+            var map = new google.maps.Map(document.getElementById('map'), { 
+
+                zoom: 17, 
+
+                center: uluru 
+
+            }); 
+
+            var marker = new google.maps.Marker({ position: uluru, map: map }); 
+
+        }
+    </script>
+
+</body>
+</html>

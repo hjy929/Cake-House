@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("../fonts/flaticon.ttf?223ff5322a8c44a78efeacd99d2e621d") format("truetype"),
+url("../fonts/flaticon.woff?223ff5322a8c44a78efeacd99d2e621d") format("woff"),
+url("../fonts/flaticon.woff2?223ff5322a8c44a78efeacd99d2e621d") format("woff2"),
+url("../fonts/flaticon.eot?223ff5322a8c44a78efeacd99d2e621d#iefix") format("embedded-opentype"),
+url("../fonts/flaticon.svg?223ff5322a8c44a78efeacd99d2e621d#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-cupcake:before {
+    content: "\f101";
+}
+.flaticon-cookie:before {
+    content: "\f102";
+}
+.flaticon-wedding-cake:before {
+    content: "\f103";
+}
+.flaticon-cupcake-1:before {
+    content: "\f104";
+}
+.flaticon-recipe-book:before {
+    content: "\f105";
+}
+.flaticon-delivery-truck:before {
+    content: "\f106";
+}
